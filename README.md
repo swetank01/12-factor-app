@@ -10,6 +10,8 @@
 - Using virtualenv
 
 ```
+pip3 install virtualenv
+virtualenv -p python<version> env
 source env/bin/activate
 python3 --version
 ```
@@ -19,3 +21,4 @@ python3 --version
 docker build -t "12fact" .
 docker run -it -p 5000:5000 12fact 
 ```
+
